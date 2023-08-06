@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Source+Code+Pro:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    background-color: rgb(184, 179, 179);
+    width:10vw;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+    /* height: 100vh; */
+} 
+
+.sidebar nav{
+    padding: 20px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 15px;
+    padding: 33px 0;
+}
+
+.main{
+    /* background-color:skyblue; */
+    width:90vw;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.container{
+    display: flex;
+
+}
+
+.infoContainer{
+   background-color:rgb(14, 66, 14);
+   height: 58vh;
+   width: 80vw;
+   margin:147px auto;
+   /* padding: 30px 0; */
+   display: flex;
+   justify-content: space-between;
+}
+
+.devPic img{
+    height: 58vh;
+    /* background: transparent; */
+}
+
+.devInfo{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 55px;
+}
+
+.name{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.about{
+    font-size: 35px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.aboutMe{
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+}
+
